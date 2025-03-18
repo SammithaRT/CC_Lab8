@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                g++ -o a p2.cpp
+                g++ -o 
                 echo "Build Stage Successful"
                 '''
             }
